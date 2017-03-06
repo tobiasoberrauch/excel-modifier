@@ -1,0 +1,12 @@
+{
+    "name": "tobiasoberrauch/excel-modifier",
+    "authors": [
+        {
+            "name": "Tobias Oberrauch",
+            "email": "t.oberrauch@simplicity.ag"
+        }
+    ],
+    "require": {
+        "phpoffice/phpexcel": "^1.8"
+    }
+}
