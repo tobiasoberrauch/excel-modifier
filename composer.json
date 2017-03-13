@@ -1,12 +1,18 @@
 {
-    "name": "tobiasoberrauch/excel-modifier",
-    "authors": [
-        {
-            "name": "Tobias Oberrauch",
-            "email": "t.oberrauch@simplicity.ag"
-        }
-    ],
-    "require": {
-        "phpoffice/phpexcel": "^1.8"
+  "name": "tobiasoberrauch/excel-modifier",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Tobias Oberrauch",
+      "email": "t.oberrauch@simplicity.ag"
     }
+  ],
+  "require": {
+    "phpoffice/phpexcel": "^1.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "ExcelModifier\\": "src/ExcelModifier"
+    }
+  }
 }
